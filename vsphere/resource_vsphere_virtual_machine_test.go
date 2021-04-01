@@ -7702,22 +7702,22 @@ data "vsphere_virtual_machine" "template" {
 }
 
 variable "disk0" {
-  type    = "string"
+  type    = string
   default = "%s"
 }
 
 variable "disk1" {
-  type    = "string"
+  type    = string
   default = "%s"
 }
 
 variable "disk2" {
-  type    = "string"
+  type    = string
   default = "%s"
 }
 
 variable "host" {
-  type    = "string"
+  type    = string
   default = "%s"
 }
 
